@@ -1,8 +1,8 @@
 {
-  "manifest_version": 5,
+  "manifest_version": 3,
   "name": "CCC ATH",
   "version": "2.0",
-  "description": "Reverse roblox privating friends list of UK players due to privacy act ",
+  "description": "Reverse roblox privating friends list of UK players due to privacy act",
   "permissions": ["storage"],
   "host_permissions": [
     "https://friends.roblox.com/*",
@@ -17,5 +17,8 @@
       "js": ["ccc.js"],
       "css": ["styles.css"]
     }
-  ]
+  ],
+  "action": {
+    "default_title": "CCC ATH"
+  }
 }
